@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@plugin "daisyui";
+
+/* @theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    @keyframes slide-in-left {
+        from {
+            transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slide-out-left {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade-out {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    .animate-slide-in-left {
+        animation: slide-in-left 0.3s ease-out forwards;
+    }
+
+    .animate-slide-out-left {
+        animation: slide-out-left 0.2s ease-in forwards;
+    }
+
+    .animate-fade-in {
+        animation: fade-in 0.3s ease-out forwards;
+    }
+
+    .animate-fade-out {
+        animation: fade-out 0.2s ease-in forwards;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+} */
