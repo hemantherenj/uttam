@@ -49,9 +49,9 @@
             <li class="text-lg font-medium">
                 <a href="{{ route('home') }}" wire:navigate @click="navOpen = false">Home</a>
             </li>
-            <li class="text-lg font-medium">
+            <!-- <li class="text-lg font-medium">
                 <a href="#features" class="" @click="navOpen = false">Features</a>
-            </li>
+            </li> -->
             <li class="text-lg font-medium">
                 <a href="#about" @click="navOpen = false">About</a>
             </li>
