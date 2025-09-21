@@ -2,11 +2,10 @@
     <div class="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
         <div class="md:flex-1 md:mr-6">
             <h1 class="font-bold text-4xl md:text-5xl text-white leading-tight">
-                The Quickest way to Chat with your Loved Ones
+                Find Your Blessed Match Today!
             </h1>
             <p class="mt-4 text-lg text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis aspernatur magni vitae
-                veritatis.
+                Start your journey toward a lasting bond that is guided by faith and nurtured with love.
             </p>
         </div>
         @if (auth('front')->check())

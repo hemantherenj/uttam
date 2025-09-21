@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Middleware\AdminAuth;
 use App\Http\Middleware\FrontAuth;
+use App\Livewire\FRONT\About;
 use App\Livewire\FRONT\Form;
 use App\Livewire\FRONT\Login;
 use App\Livewire\FRONT\Profile;
@@ -27,6 +28,7 @@ use App\Livewire\FRONT\ProfileDetail;
 // });
 
 Route::get('/', Home::class)->name('home');
+Route::get('/about', About::class)->name('about');
 Route::get('/login', Login::class)->name('login');
 
 

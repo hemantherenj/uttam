@@ -1,6 +1,6 @@
 <div>
     <x-front.banner />
-    <x-front.about />
+    {{-- <x-front.about /> --}}
 
 
 

@@ -7,7 +7,7 @@
                     <nav class="flex mb-5" aria-label="Breadcrumb">
                         <ol class="inline-flex items-center space-x-1 md:space-x-2">
                             <li class="inline-flex items-center">
-                                <a href="#" class="text-gray-700 hover:text-gray-900 inline-flex items-center">
+                                <a href="{{ route('home') }}" class="text-gray-700 hover:text-gray-900 inline-flex items-center">
                                     <svg class="w-5 h-5 mr-2.5" fill="currentColor" viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -29,7 +29,7 @@
                                         class="text-gray-700 hover:text-gray-900 ml-1 md:ml-2 text-sm font-medium">Users</a>
                                 </div>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <div class="flex items-center">
                                     <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@
                                     <span class="text-gray-400 ml-1 md:ml-2 text-sm font-medium"
                                         aria-current="page">List</span>
                                 </div>
-                            </li>
+                            </li> --}}
                         </ol>
                     </nav>
                     <h1 class="text-xl sm:text-2xl font-semibold text-gray-900">All users</h1>
