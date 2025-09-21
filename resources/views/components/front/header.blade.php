@@ -52,9 +52,9 @@
             <!-- <li class="text-lg font-medium">
                 <a href="#features" class="" @click="navOpen = false">Features</a>
             </li> -->
-            <li class="text-lg font-medium">
+            <!-- <li class="text-lg font-medium">
                 <a href="#about" @click="navOpen = false">About</a>
-            </li>
+            </li> -->
             <li class="text-lg font-medium">
                 <a href="#contact" @click="navOpen = false">Contact</a>
             </li>
